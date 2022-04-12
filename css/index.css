@@ -1,0 +1,15 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  background-color: rgb(243, 241, 241);
+}
+
+body::-webkit-scrollbar {
+  width: 0;
+}
+
+.hide {
+  display: none;
+}

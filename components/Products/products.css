@@ -1,0 +1,72 @@
+.products_container {
+  width: 935px;
+  padding: 5px;
+  margin: auto;
+}
+
+.gitar_block {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.gitar_info {
+  box-shadow: 0 0 2px -1.5px black;
+  display: flex;
+  width: 170px;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+  height: 380px;
+  padding: 17px;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+}
+
+.gitar_info__img {
+  margin-bottom: auto;
+  width: 170px;
+  border-radius: 17px;
+}
+
+.gitar_info__name {
+  margin-bottom: auto;
+  display: inline-block;
+  font-weight: bold;
+  height: auto;
+}
+
+.gitar_info__add {
+  font-weight: bold;
+  color: rgb(216, 153, 36);
+  cursor: pointer;
+  font-size: large;
+  padding: 5px 0 7px 0;
+  border-radius: 15px;
+}
+
+.gitar_info__add:hover {
+  transition: color ease 0.8s;
+  color: black;
+  background-color: rgb(247, 247, 247);
+}
+
+.gitar_info__price {
+  font-weight: bold;
+  opacity: 0.5;
+}
+
+.gitar_info__add_active {
+  font-weight: bold;
+  cursor: pointer;
+  font-size: large;
+  padding: 5px 0 7px 0;
+  border-radius: 15px;
+  color: rgb(73, 73, 197);
+}
+
+.gitar_info__add_active:hover {
+  transition: color ease 0.8s;
+  color: black;
+  background-color: rgb(247, 247, 247);
+}
